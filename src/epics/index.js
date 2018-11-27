@@ -1,6 +1,4 @@
 import { PING, PONG } from '../actions/index'
-
-import { Observable } from 'rxjs/Observable'
 import { combineEpics } from 'redux-observable'
 
 import 'rxjs/add/operator/delay'
